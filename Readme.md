@@ -1,23 +1,18 @@
-# Entorno de desarrollo - FitLife
 
-## IDE
+Bienvenido a nuestro proyecto FitLife
 
-Para el desarrollo de FitLife utilizaremos **Android Studio 2025.1 o superior** para la aplicación móvil, ya que trabajaremos con Flutter. Para el backend utilizaremos **Visual Studio Code**, donde desarrollaremos la parte de Python.
+Para poder trabajar en nuestro proyecto te recomendamos que instales estas series de programas y archivos.
 
-## Lenguaje y framework
+IDE -> Para el IDE vamos a utilizar Android Studio la versión 2025.1 o superior, esto lo vamos a utilizaer para la aplicación móvil, esto es debido a que trabajaremos con Flutter.
 
-La aplicación móvil estará desarrollada con **Flutter 3.x**, utilizando **Dart 3.x**. Para el backend utilizaremos **Python 3.12** junto con **FastAPI 0.115.x**, que será el framework encargado de desarrollar la API REST de la aplicación.
+El backend lo realizaremos en Visual Studio Code, nosotros utilizaremos al versión 1.139.0 
 
-## Servidor de aplicaciones
+Lenguaje y Framework -> La aplicación móvil va a ser desarrollada con Flutter 3.x utilizando Dart 3.x . Para el backend utilizamos Python 3.12 junto a FastAPI 0.115.x que se encargará de desarrollar la API REST para la aplicación.
 
-Para ejecutar el backend utilizaremos **Uvicorn 0.30.x**, que funciona como servidor de aplicaciones para FastAPI. El servidor se ejecutará en el puerto **8000** durante el desarrollo.
+Servidor de aplicaciones -> Utilizmos Uvicorn 0.30.x como backend que funcionará para FastApi en el puerto 8000.
 
-## Lanzador de peticiones API
+Lanzador de peticiones API -> Utilizamos Postman 11.x .Además, utilizaremos la documentación automática que nos ofrece FastAPI mediante Swagger para comprobarlo todo.
 
-Para realizar y comprobar las peticiones a la API utilizaremos **Postman 11.x**. También utilizaremos la documentación automática que proporciona FastAPI mediante Swagger para consultar y probar los diferentes endpoints.
-
-## Herramientas de soporte
-
-Como base de datos utilizaremos **PostgreSQL 16.x**. Para el control de versiones utilizaremos **Git y GitHub**. También utilizaremos **Docker** como herramienta de apoyo para trabajar con la base de datos. Para la gestión de las dependencias de Python utilizaremos `pip` y un entorno virtual.
+Herramientas de soporte -> PostgreSQL 16.x como base de datos. Para el control de versiones utilizamos GIT y GitHub. Además, Docker como herramienta de apoyo de base de datos. Y para la gestión de dependecias de python utilizamos 'pip' y un entorno virtual (en VirtualBox).
 
 
